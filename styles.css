@@ -1,0 +1,93 @@
+
+/* Reset and base styles */
+
+*{
+  margin: 0.5;
+  padding: 0.5;
+  
+  /*box-sizing: border-box; */
+
+}
+
+body {
+    background-color:lightcoral;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 30px 50px;
+    background-color: rgb(19, 134, 134);
+
+}
+
+/* logo section */
+   .logo {
+    align-items:center;
+    
+   }
+   
+   .logo-image assets/icons8-bungalow-94.png
+    {
+     width: 75px;
+     height: 95px;
+     transition: transform 0.3 ease-in-out;
+     transform: scale(1);
+     
+   }
+   .logo-image img:hover {
+      transform: scale(1.2);
+      transition: transform all 0.3s ease;
+
+   }
+   
+      .nav-menu {
+        display:contents;
+        gap: 10px;
+      }
+      .nav-menu li {
+        list-style:circle;
+      }
+     .nav-menu a {
+        text-decoration: none;
+        color: black;
+        font-weight: 500;
+        transition:all 0.5s ease;
+
+     }
+     .nav-menu a:hover{
+        color:blueviolet ;
+        transform: translateY(20px);
+        text-shadow: 1px 1px 2px;
+         
+
+     }  */
+
+     /* Contact Button*/
+      .contact-button .btn {
+     background-color:chartreuse;
+     color: cyan;
+     padding: 12px 25px;
+     border-radius: 20px;
+     text-decoration: none;
+     font-weight: bold;
+     font-size: 17px;
+     transition: all 0.3s ease;
+      }
+.contact-button .btn:hover {
+    background-color: rgb(63, 94, 126);
+    transform: translateY(15px);
+    box-shadow: 0.5px 15px  ;
+
+}
+.contact-button .btn a {
+    background-color: rgb(63, 94, 126);
+    
+    transform: translateY(-5px); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5); 
+}
+
+
